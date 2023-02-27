@@ -1,0 +1,101 @@
+body,
+		td {
+			font-size: 10pt;
+			text-align: center;
+		}
+		
+		h1 {
+			color: rgb(255, 11, 11);
+		}
+		
+		table {
+			background-color: black;
+			border: 1px black solid;
+			border-collapse: collapse;
+            width: 68%;
+            height: 52%;
+            bottom: 55px;
+            padding-bottom: 55;
+		}
+		
+		th {
+			font-size: 15px;
+			padding: 5px 8px;
+			border: 1px outset silver;
+			background-color: rgb(197, 69, 69);
+			color: white;
+		}
+		
+		tr {
+			border: 1px outset silver;
+			padding: 5px 8px;
+			background-color: white;
+			margin: 1px;
+		}
+		
+		tr.zebrastripe {
+			background-color: green;
+		}
+		
+		td {
+			border: 0.5px outset silver;
+			border-collapse: collapse;
+			padding: 5px 8px;
+		}
+		
+		.center {
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+        .btn{
+            width: 12%;
+            height: 42px;
+            background-color: yellow;
+        }
+        .printpage{
+            height: 35%;
+            width: 66%;
+            color: red;
+
+        }
+
+        .txt{
+            font-size: xx-large;
+        }
+        
+        .divClass {
+			height: 40px;
+			width: 200px;
+			border: 1px solid blue;
+			color: white
+		}
+        body {
+            text-align: center;
+        }
+        #nonSelected {
+            position: absolute;
+            top: 150px;
+            left: 350px;
+            width: 250px;
+            height: 280px;
+            background-color: lightblue;
+            border-width: 2px;
+            border-style: dotted;
+            border-color: black;
+            padding: 10px;
+        }
+    
+        #selected {
+            position: absolute;
+            top: 150px;
+            left: 20px;
+            width: 250px;
+            height: 280px;
+            background-color: lightgreen;
+            font-style: italic;
+            border-width: 2px;
+            border-style: solid;
+            border-color: black;
+            padding: 10px;
+        }
