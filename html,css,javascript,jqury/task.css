@@ -74,7 +74,6 @@ body,
             text-align: center;
         }
         #nonSelected {
-            position: absolute;
             top: 150px;
             left: 350px;
             width: 250px;
@@ -84,11 +83,12 @@ body,
             border-style: dotted;
             border-color: black;
             padding: 10px;
+            float: left;
         }
     
         #selected {
-            position: absolute;
-            top: 150px;
+            margin-top: -342px;
+            top: 108px;
             left: 20px;
             width: 250px;
             height: 280px;
@@ -98,4 +98,17 @@ body,
             border-style: solid;
             border-color: black;
             padding: 10px;
+            float: right;
+        }
+
+        .btn {
+            width: 66px;
+            height: 21px;
+            margin: 5px;
+            padding: 0px;
+            border-color: #b6b6bb;
+        }
+          
+        #addList {
+            border-color: rgb(183, 252, 252);
         }
